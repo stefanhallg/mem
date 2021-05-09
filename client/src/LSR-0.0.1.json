@@ -1,0 +1,164 @@
+{
+  "compilation": {
+    "name": "mtx-gildi",
+    "version": "0.0.3",
+    "populated": false,
+    "FeatureSelection": [
+      {
+        "component": "MTX.Allocation",
+        "version": "20.1.1.3",
+        "release_package_id": "MTX.Allocation.Release",
+        "features": [
+          "database"
+        ]
+      },
+      {
+        "component": "MTX.BankAccounts",
+        "version": "20.0.1.1",
+        "release_package_id": "MTX.BankAccounts.Release",
+        "features": [
+          "services",
+          "database"
+        ]
+      },
+      {
+        "component": "MTX.CommonReports",
+        "version": "20.2.0",
+        "release_package_id": "MTX.CommonReports.Release",
+        "features": [
+          "database",
+          "services",
+          "CommomReports.Addins"
+        ]
+      },
+      {
+        "component": "MTX.Feed",
+        "version": "19.1.2.2",
+        "release_package_id": "MTX.Feed.Release",
+        "features": [
+          "database",
+          "service",
+          "client"
+        ]
+      },
+      {
+        "component": "MTX.GeneralLedger",
+        "version": "20.0.1.1",
+        "release_package_id": "MTX.GeneralLedger.Release",
+        "features": [
+          "database",
+          "services"
+        ]
+      },
+      {
+        "component": "MTX.GlobalData",
+        "version": "18.1.3.0",
+        "release_package_id": "MTX.GlobalData.Release",
+        "features": [
+          "database"
+        ]
+      },
+      {
+        "component": "MTX.Guaranty",
+        "version": "20.0.1.0",
+        "release_package_id": "MTX.Guaranty.Release",
+        "features": [
+          "database",
+          "services"
+        ]
+      },
+      {
+        "component": "MTX.Invoice",
+        "version": "20.0.3",
+        "release_package_id": "MTX.Invoice.Release",
+        "features": [
+          "database",
+          "services",
+          "Invoice.Addins"
+        ]
+      },
+      {
+        "component": "MTX.KP",
+        "version": "20.1.3.0",
+        "release_package_id": "MTX.KP.Release",
+        "features": [
+          "database",
+          "services",
+          "KP.Addins"
+        ]
+      },
+      {
+        "component": "MTX.Payments",
+        "version": "19.2.5",
+        "release_package_id": "MTX.Payments.Release",
+        "features": [
+          "default"
+        ]
+      },
+      {
+        "component": "MTX.Rates",
+        "version": "20.0.0",
+        "release_package_id": "MTX.Rates.Release",
+        "features": [
+          "default"
+        ]
+      },
+      {
+        "component": "MTX.Report",
+        "version": "19.5.1",
+        "release_package_id": "MTX.Report.Release",
+        "features": [
+          "database"
+        ]
+      },
+      {
+        "component": "MTX.Safe",
+        "version": "20.0.1",
+        "release_package_id": "MTX.Safe.Release",
+        "features": [
+          "default"
+        ]
+      },
+      {
+        "component": "MTX.Series",
+        "version": "19.2.0.0",
+        "release_package_id": "MTX.Series.Release",
+        "features": [
+          "database",
+          "services"
+        ]
+      },
+      {
+        "component": "MTX.CDP",
+        "version": "20.1.0.4",
+        "release_package_id": "MTX.CDP.Release",
+        "features": [
+          "database",
+          "services",
+          "CDP-Addins"
+        ]
+      },
+      {
+        "component": "MTX.Tax",
+        "version": "20.1.0.1",
+        "release_package_id": "MTX.Tax.Release",
+        "features": [
+          "default"
+        ]
+      },
+      {
+        "component": "MTX.Loan",
+        "version": "20.1.8",
+        "release_package_id": "MTX.Loan.Release",
+        "features": [
+          "services",
+          "database",
+          "Loan.Client",
+          "Loan.Addins",
+          "Collect.Addins",
+          "Allocation"
+        ]
+      }
+    ]
+  }
+}

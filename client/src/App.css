@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  display: flex; /* or inline-flex */
+  
+  font-family: 'Roboto Mono', monospace;
+  font-size: 13px;
+}

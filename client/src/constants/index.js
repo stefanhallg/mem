@@ -1,0 +1,15 @@
+export const GET_CONFIG='GET_CONFIG';
+export const GET_MASTER_KEYS='GET_MASTER_KEYS';
+export const SET_SELECTED_CONFIG='SET_SELECTED_CONFIG';
+
+
+
+
+
+
+export const CLEAR_BOSS='CLEAR_BOSS';
+
+export const GET_BOSSES_LIST='GET_BOSSES_LIST';
+export const UPDATE_BOSS='UPDATE_BOSS';
+export const INSERT_BOSS='INSERT_BOSS';
+export const DELETE_BOSS='DELETE_BOSS';
