@@ -1,6 +1,6 @@
 import './App.css';
 import react, {useEffect} from 'react'
-import Groups from './components/Groups';
+import Enviroment from './components/Enviroment';
 import ConfigValues from './components/ConfigValues';
 import Header from './components/Header';
 import {getAllConfig} from './actions/envActions';
@@ -16,7 +16,7 @@ function App() {
   }, [dispatch])
   return (
     <div className="container">
-     <Groups></Groups>
+     <Enviroment></Enviroment>
      <ConfigValues></ConfigValues>
     </div>
   );
